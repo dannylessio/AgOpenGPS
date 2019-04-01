@@ -1116,7 +1116,10 @@ namespace AgOpenGPS
                     {
                         //ask for a directory name
                         using (var form2 = new FormFieldDir(this))
-                        { form2.ShowDialog(); }
+                        {
+                            form2.ShowDialog();
+                            form2.Show();
+                        }
                     }
                 }
 
