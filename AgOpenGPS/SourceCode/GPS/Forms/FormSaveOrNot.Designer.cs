@@ -1,4 +1,6 @@
-﻿namespace AgOpenGPS
+﻿using System.Windows.Forms;
+
+namespace AgOpenGPS
 {
     partial class FormSaveOrNot
     {
@@ -73,6 +75,9 @@
             this.Name = "FormSaveOrNot";
             this.ResumeLayout(false);
             this.PerformLayout();
+            this.WindowState = FormWindowState.Normal;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Bounds = Screen.PrimaryScreen.Bounds;
 
         }
 
