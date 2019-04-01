@@ -117,13 +117,13 @@ namespace AgOpenGPS
             if (!String.IsNullOrEmpty(tboxTask.Text.Trim())) mf.currentFieldDirectory += tboxTask.Text.Trim() + "_";
 
             //vehicle
-            if (!String.IsNullOrEmpty(tboxVehicle.Text.Trim())) mf.currentFieldDirectory += tboxVehicle.Text.Trim() + "_";
+            if (!String.IsNullOrEmpty(tboxVehicle.Text.Trim())) mf.currentFieldDirectory += tboxVehicle.Text.Trim();
 
             //date
-            mf.currentFieldDirectory += String.Format("{0}", DateTime.Now.ToString("yyyy.MMM.dd HH_mm", CultureInfo.InvariantCulture));
+            //mf.currentFieldDirectory += String.Format("{0}", DateTime.Now.ToString("yyyy.MMM.dd HH_mm", CultureInfo.InvariantCulture));
 
             //get the directory and make sure it exists, create if not
-            string dirNewField = Path.Combine(mf.fieldsDirectory, mf.currentFieldDirectory); 
+            string dirNewField = Path.Combine(mf.fieldsDirectory, mf.currentFieldDirectory);
            
             //if no template set just make a new file.
             if (!isTemplateSet)
@@ -134,7 +134,7 @@ namespace AgOpenGPS
                     mf.JobNew();
 
                     //create it for first save
-                    string directoryName = Path.GetDirectoryName(dirNewField);
+                    string directoryName = dirNewField;
 
                     if ((!string.IsNullOrEmpty(directoryName)) && (Directory.Exists(directoryName)))
                     {
