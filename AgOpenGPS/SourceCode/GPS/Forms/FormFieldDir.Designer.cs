@@ -1,4 +1,6 @@
-﻿namespace AgOpenGPS
+﻿using System.Windows.Forms;
+
+namespace AgOpenGPS
 {
     partial class FormFieldDir
     {
@@ -139,6 +141,9 @@
             this.ResumeLayout(false);
             this.PerformLayout();
             this.TopMost = true;
+            this.WindowState = FormWindowState.Normal;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Bounds = Screen.PrimaryScreen.Bounds;
 
         }
 
