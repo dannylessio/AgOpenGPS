@@ -138,6 +138,7 @@
             this.Load += new System.EventHandler(this.FormFieldDir_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
+            this.TopMost = true;
 
         }
 
