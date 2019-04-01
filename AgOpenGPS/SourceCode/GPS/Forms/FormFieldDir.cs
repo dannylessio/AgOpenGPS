@@ -123,8 +123,8 @@ namespace AgOpenGPS
             mf.currentFieldDirectory += String.Format("{0}", DateTime.Now.ToString("yyyy.MMM.dd HH_mm", CultureInfo.InvariantCulture));
 
             //get the directory and make sure it exists, create if not
-            string dirNewField = mf.fieldsDirectory + mf.currentFieldDirectory + "\\";
-
+            string dirNewField = Path.Combine(mf.fieldsDirectory, mf.currentFieldDirectory); 
+           
             //if no template set just make a new file.
             if (!isTemplateSet)
             {

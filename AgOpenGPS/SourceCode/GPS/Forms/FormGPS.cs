@@ -340,11 +340,11 @@ namespace AgOpenGPS
             this.MouseWheel += ZoomByMouseWheel;
 
             if (Settings.Default.setF_workingDirectory == "Default")
-                baseDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\AgOpenGPS\\";
-            else baseDirectory = Settings.Default.setF_workingDirectory + "\\AgOpenGPS\\";
+                baseDirectory = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "AgOpenGPS"); 
+            else baseDirectory = Path.Combine(Settings.Default.setF_workingDirectory, "AgOpenGPS"); 
 
             //get the fields directory, if not exist, create
-            fieldsDirectory = baseDirectory + "Fields\\";
+            fieldsDirectory = Path.Combine(baseDirectory, "Fields"); 
             string dir = Path.GetDirectoryName(fieldsDirectory);
             if (!string.IsNullOrEmpty(dir) && !Directory.Exists(dir)) { Directory.CreateDirectory(dir); }
 
