@@ -1,4 +1,6 @@
-﻿namespace AgOpenGPS
+﻿using System.Windows.Forms;
+
+namespace AgOpenGPS
 {
     partial class FormDisplaySettings
     {
@@ -780,6 +782,9 @@
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nudSnapDistance)).EndInit();
             this.ResumeLayout(false);
+            this.WindowState = FormWindowState.Normal;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Bounds = Screen.PrimaryScreen.Bounds;
 
         }
 
