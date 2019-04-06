@@ -1045,7 +1045,7 @@ namespace AgOpenGPS.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("40")]
+        [global::System.Configuration.DefaultSettingValueAttribute("10")]
         public int setDisplay_snapDistance {
             get {
                 return ((int)(this["setDisplay_snapDistance"]));
@@ -1057,7 +1057,7 @@ namespace AgOpenGPS.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("10")]
+        [global::System.Configuration.DefaultSettingValueAttribute("1")]
         public int setDisplay_snapDistanceSmall {
             get {
                 return ((int)(this["setDisplay_snapDistanceSmall"]));
