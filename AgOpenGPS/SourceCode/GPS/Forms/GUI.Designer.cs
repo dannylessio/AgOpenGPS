@@ -174,16 +174,16 @@ namespace AgOpenGPS
             {
                 //Batman mini-panel shows
                 panelSimControls.Left = 245;
-                oglMain.Left = 240;
-                oglMain.Width = Width - 240 - 210;
-                btnpTiltDown.Left = 245;
-                btnpTiltUp.Left = 245;
-                btnZoomIn.Left = 245;
-                btnZoomOut.Left = 245;
-                btnZoomExtents.Left = 245;
-                cboxpRowWidth.Left = 245;
+                oglMain.Left = 0;
+                oglMain.Width = Width;
+                btnpTiltDown.Left = 5;
+                btnpTiltUp.Left = 5;
+                btnZoomIn.Left = 5;
+                btnZoomOut.Left = 5;
+                btnZoomExtents.Left = 5;
+                cboxpRowWidth.Left = 5;
                 txtDistanceOffABLine.Left = (Width - 240-100)/2 + 140;
-                panelBatman.Visible = true;
+                panelBatman.Visible = false;
                 tabControl1.Visible = false;
                 Properties.Settings.Default.setDisplay_isLargePanel = false;
                 Properties.Settings.Default.Save();
@@ -193,8 +193,8 @@ namespace AgOpenGPS
             {
                 //Big tab will be visible
                 panelSimControls.Left = 345;
-                oglMain.Left = 340;
-                oglMain.Width = Width - 340 - 210;
+                oglMain.Left = 0;
+                oglMain.Width = Width;
                 btnpTiltDown.Left = 345;
                 btnpTiltUp.Left = 345;
                 btnZoomIn.Left = 345;
@@ -205,7 +205,7 @@ namespace AgOpenGPS
                 txtDistanceOffABLine.Top = -1;
                 tabControl1.SelectedIndex = 3;
                 panelBatman.Visible = false;
-                tabControl1.Visible = true;
+                tabControl1.Visible = false;
                 Properties.Settings.Default.setDisplay_isLargePanel = true;
                 Properties.Settings.Default.Save();
                 LineUpManualBtns();
@@ -1402,7 +1402,7 @@ namespace AgOpenGPS
                     //change image to reflect on off
                     btnABLine.Image = Properties.Resources.ABLineOn;
                     ABLine.isABLineBeingSet = false;
-                    EnableYouTurnButtons();
+                    //EnableYouTurnButtons();
                     btnCurve.Enabled = false;
                 }
             }

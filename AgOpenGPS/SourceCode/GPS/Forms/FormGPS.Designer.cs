@@ -2407,7 +2407,6 @@
             this.panel2.Controls.Add(this.btnSmallLeft2);
             this.panel2.Controls.Add(this.btnContourPriority);
             this.panel2.Controls.Add(this.btnABLine);
-            this.panel2.Controls.Add(this.btnAutoSteer);
             resources.ApplyResources(this.panel2, "panel2");
             this.panel2.Name = "panel2";
             // 
@@ -2423,8 +2422,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.panelBatman);
+            this.Controls.Add(this.btnAutoSteer);
             this.Controls.Add(this.btnZoomExtents);
             this.Controls.Add(this.btnZoomIn);
             this.Controls.Add(this.btnZoomOut);
@@ -2463,6 +2462,7 @@
             this.Controls.Add(this.btnSection9Man);
             this.Controls.Add(this.oglMain);
             this.Controls.Add(this.oglBack);
+            this.Controls.Add(this.tabControl1);
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "FormGPS";

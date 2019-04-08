@@ -908,8 +908,8 @@ namespace AgOpenGPS
                         {
                             //set gui image button on
                             btnABLine.Image = global::AgOpenGPS.Properties.Resources.ABLineOn;
-                            btnRightYouTurn.Visible = true;
-                            btnLeftYouTurn.Visible = true;
+                            btnRightYouTurn.Visible = false;
+                            btnLeftYouTurn.Visible = false;
 
                             //Heading  , ,refPoint2x,z                    
                             line = reader.ReadLine();

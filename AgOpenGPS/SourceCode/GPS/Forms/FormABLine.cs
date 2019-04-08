@@ -177,7 +177,7 @@ namespace AgOpenGPS
         {
             //save the ABLine
             mf.FileSaveABLine();
-
+            mf.isAutoSteerBtnOn = true;
             //update the default
             mf.AB0.fieldName = mf.currentFieldDirectory;
             mf.AB0.heading = glm.toDegrees(mf.ABLine.abHeading);
