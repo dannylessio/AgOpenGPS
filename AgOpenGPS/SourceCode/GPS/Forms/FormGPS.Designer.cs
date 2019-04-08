@@ -2399,6 +2399,7 @@
             // 
             // panel2
             // 
+            resources.ApplyResources(this.panel2, "panel2");
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
             this.panel2.Controls.Add(this.btnBigLeft2);
             this.panel2.Controls.Add(this.btnBigRight2);
@@ -2407,7 +2408,6 @@
             this.panel2.Controls.Add(this.btnSmallLeft2);
             this.panel2.Controls.Add(this.btnContourPriority);
             this.panel2.Controls.Add(this.btnABLine);
-            resources.ApplyResources(this.panel2, "panel2");
             this.panel2.Name = "panel2";
             // 
             // label3
