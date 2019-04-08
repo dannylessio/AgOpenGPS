@@ -912,7 +912,7 @@ namespace AgOpenGPS
             btnLeftYouTurn.Enabled = false;
             btnFlag.Enabled = true;
 
-            btnContourPriority.Image = Properties.Resources.Snap2;
+            //btnContourPriority.Image = Properties.Resources.Snap2;
 
             if (recPath.isRecordOn)
             {
@@ -1032,7 +1032,7 @@ namespace AgOpenGPS
             btnABLine.Enabled = false;
             btnContour.Enabled = false;
             btnContourPriority.Enabled = false;
-            btnContourPriority.Image = Properties.Resources.Snap2;
+            //btnContourPriority.Image = Properties.Resources.Snap2;
             btnAutoSteer.Enabled = false;
             isAutoSteerBtnOn = false;
 

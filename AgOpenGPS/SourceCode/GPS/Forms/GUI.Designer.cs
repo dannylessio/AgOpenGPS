@@ -1143,7 +1143,7 @@ namespace AgOpenGPS
                     txtDistanceOffABLine.Visible = false;
 
                     //change image to reflect on off
-                    btnABLine.Image = Properties.Resources.ABLineOff;
+                    //btnABLine.Image = Properties.Resources.ABLineOff;
                     ABLine.isABLineBeingSet = false;
                     DisableYouTurnButtons();
                     if (isAutoSteerBtnOn) btnAutoSteer.PerformClick();
@@ -1279,7 +1279,7 @@ namespace AgOpenGPS
                     txtDistanceOffABLine.Visible = false;
 
                     //change image to reflect on off
-                    btnABLine.Image = Properties.Resources.ABLineOff;
+                    //btnABLine.Image = Properties.Resources.ABLineOff;
                     ABLine.isABLineBeingSet = false;
                     DisableYouTurnButtons();
                     if (isAutoSteerBtnOn) btnAutoSteer.PerformClick();
@@ -1386,7 +1386,7 @@ namespace AgOpenGPS
                     txtDistanceOffABLine.Visible = false;
 
                     //change image to reflect on off
-                    btnABLine.Image = Properties.Resources.ABLineOff;
+                    //btnABLine.Image = Properties.Resources.ABLineOff;
                     ABLine.isABLineBeingSet = false;
 
                     DisableYouTurnButtons();
@@ -1400,7 +1400,7 @@ namespace AgOpenGPS
                 else
                 {
                     //change image to reflect on off
-                    btnABLine.Image = Properties.Resources.ABLineOn;
+                    //btnABLine.Image = Properties.Resources.ABLineOn;
                     ABLine.isABLineBeingSet = false;
                     //EnableYouTurnButtons();
                     btnCurve.Enabled = false;
@@ -1451,7 +1451,7 @@ namespace AgOpenGPS
                 txtDistanceOffABLine.Visible = false;
 
                 //change image to reflect on off
-                btnABLine.Image = Properties.Resources.ABLineOff;
+                //btnABLine.Image = Properties.Resources.ABLineOff;
                 ABLine.isABLineBeingSet = false;
                 //btnContour.Enabled = false;
                 btnABLine.Enabled = false;
@@ -1520,7 +1520,7 @@ namespace AgOpenGPS
                 }
                 //btnContourPriority.Enabled = false;
 
-                btnContourPriority.Image = Properties.Resources.Snap2;
+                //btnContourPriority.Image = Properties.Resources.Snap2;
             }
         }
         private void btnContourPriority_Click(object sender, EventArgs e)

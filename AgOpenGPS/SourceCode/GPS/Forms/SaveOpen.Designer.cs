@@ -907,7 +907,7 @@ namespace AgOpenGPS
                         if (isAB)
                         {
                             //set gui image button on
-                            btnABLine.Image = global::AgOpenGPS.Properties.Resources.ABLineOn;
+                            //btnABLine.Image = global::AgOpenGPS.Properties.Resources.ABLineOn;
                             btnRightYouTurn.Visible = false;
                             btnLeftYouTurn.Visible = false;
 
