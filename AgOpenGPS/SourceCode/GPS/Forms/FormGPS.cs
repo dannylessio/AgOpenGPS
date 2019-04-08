@@ -792,6 +792,30 @@ namespace AgOpenGPS
             section[11].positionRight = (double)Vehicle.Default.setSection_position13 + Vehicle.Default.setVehicle_toolOffset;
         }
 
+        private void MenuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void StripOnlineGPS_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AutoPage4_Click(object sender, EventArgs e)
+        {
+
+        }
 
         private void btnStartStopNtrip_Click(object sender, EventArgs e)
         {

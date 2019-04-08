@@ -28,5 +28,20 @@ namespace AgOpenGPS
             DialogResult = DialogResult.Ignore;
             Close();
         }
+
+        private void FormSaveOrNot_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LblQuestion_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

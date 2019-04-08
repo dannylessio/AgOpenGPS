@@ -172,10 +172,6 @@
             this.btnGPSData = new System.Windows.Forms.Button();
             this.btnPerimeter = new System.Windows.Forms.Button();
             this.DataPage = new System.Windows.Forms.TabPage();
-            this.btnSmallRight2 = new System.Windows.Forms.Button();
-            this.btnSmallLeft2 = new System.Windows.Forms.Button();
-            this.btnBigRight2 = new System.Windows.Forms.Button();
-            this.btnBigLeft2 = new System.Windows.Forms.Button();
             this.lblLongitude = new System.Windows.Forms.Label();
             this.lblLatitude = new System.Windows.Forms.Label();
             this.lblAltitude = new System.Windows.Forms.Label();
@@ -208,6 +204,10 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.btnSmallRight2 = new System.Windows.Forms.Button();
+            this.btnSmallLeft2 = new System.Windows.Forms.Button();
+            this.btnBigRight2 = new System.Windows.Forms.Button();
+            this.btnBigLeft2 = new System.Windows.Forms.Button();
             this.cboxpRowWidth = new System.Windows.Forms.ComboBox();
             this.oglZoom = new OpenTK.GLControl();
             this.lblFixQuality = new System.Windows.Forms.Label();
@@ -294,6 +294,8 @@
             this.btnManualOffOn = new System.Windows.Forms.Button();
             this.btnABLine = new System.Windows.Forms.Button();
             this.btnContour = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
             this.contextMenuStripOpenGL.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
@@ -308,6 +310,7 @@
             this.panelSimControls.SuspendLayout();
             this.contextMenuStripAB.SuspendLayout();
             this.contextMenuSnap.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // contextMenuStripOpenGL
@@ -654,6 +657,7 @@
             this.fileToolStripMenuItem,
             this.settingsToolStripMenuItem});
             this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.MenuStrip1_ItemClicked);
             // 
             // tmrWatchdog
             // 
@@ -943,6 +947,7 @@
             this.stripOnlineGPS.ForeColor = System.Drawing.Color.DarkTurquoise;
             this.stripOnlineGPS.Name = "stripOnlineGPS";
             this.stripOnlineGPS.Value = 1;
+            this.stripOnlineGPS.Click += new System.EventHandler(this.StripOnlineGPS_Click);
             // 
             // toolStripBatman
             // 
@@ -1137,6 +1142,7 @@
             this.autoPage4.Controls.Add(this.btnRecPathPauseRecord);
             resources.ApplyResources(this.autoPage4, "autoPage4");
             this.autoPage4.Name = "autoPage4";
+            this.autoPage4.Click += new System.EventHandler(this.AutoPage4_Click);
             // 
             // btnLidarOnOff
             // 
@@ -1419,10 +1425,6 @@
             // DataPage
             // 
             this.DataPage.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.DataPage.Controls.Add(this.btnSmallRight2);
-            this.DataPage.Controls.Add(this.btnSmallLeft2);
-            this.DataPage.Controls.Add(this.btnBigRight2);
-            this.DataPage.Controls.Add(this.btnBigLeft2);
             this.DataPage.Controls.Add(this.lblLongitude);
             this.DataPage.Controls.Add(this.lblLatitude);
             this.DataPage.Controls.Add(this.lblAltitude);
@@ -1462,50 +1464,6 @@
             this.DataPage.Cursor = System.Windows.Forms.Cursors.Arrow;
             resources.ApplyResources(this.DataPage, "DataPage");
             this.DataPage.Name = "DataPage";
-            // 
-            // btnSmallRight2
-            // 
-            resources.ApplyResources(this.btnSmallRight2, "btnSmallRight2");
-            this.btnSmallRight2.BackColor = System.Drawing.Color.Lavender;
-            this.btnSmallRight2.ContextMenuStrip = this.contextMenuStripFlag;
-            this.btnSmallRight2.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
-            this.btnSmallRight2.FlatAppearance.BorderSize = 2;
-            this.btnSmallRight2.Name = "btnSmallRight2";
-            this.btnSmallRight2.UseVisualStyleBackColor = false;
-            this.btnSmallRight2.Click += new System.EventHandler(this.btnSmallRight2_Click);
-            // 
-            // btnSmallLeft2
-            // 
-            resources.ApplyResources(this.btnSmallLeft2, "btnSmallLeft2");
-            this.btnSmallLeft2.BackColor = System.Drawing.Color.Lavender;
-            this.btnSmallLeft2.ContextMenuStrip = this.contextMenuStripFlag;
-            this.btnSmallLeft2.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
-            this.btnSmallLeft2.FlatAppearance.BorderSize = 2;
-            this.btnSmallLeft2.Name = "btnSmallLeft2";
-            this.btnSmallLeft2.UseVisualStyleBackColor = false;
-            this.btnSmallLeft2.Click += new System.EventHandler(this.btnSmallLeft2_Click);
-            // 
-            // btnBigRight2
-            // 
-            resources.ApplyResources(this.btnBigRight2, "btnBigRight2");
-            this.btnBigRight2.BackColor = System.Drawing.Color.Lavender;
-            this.btnBigRight2.ContextMenuStrip = this.contextMenuStripFlag;
-            this.btnBigRight2.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
-            this.btnBigRight2.FlatAppearance.BorderSize = 2;
-            this.btnBigRight2.Name = "btnBigRight2";
-            this.btnBigRight2.UseVisualStyleBackColor = false;
-            this.btnBigRight2.Click += new System.EventHandler(this.btnBigRight2_Click);
-            // 
-            // btnBigLeft2
-            // 
-            resources.ApplyResources(this.btnBigLeft2, "btnBigLeft2");
-            this.btnBigLeft2.BackColor = System.Drawing.Color.Lavender;
-            this.btnBigLeft2.ContextMenuStrip = this.contextMenuStripFlag;
-            this.btnBigLeft2.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
-            this.btnBigLeft2.FlatAppearance.BorderSize = 2;
-            this.btnBigLeft2.Name = "btnBigLeft2";
-            this.btnBigLeft2.UseVisualStyleBackColor = false;
-            this.btnBigLeft2.Click += new System.EventHandler(this.btnBigLeft2_Click);
             // 
             // lblLongitude
             // 
@@ -1671,6 +1629,50 @@
             // 
             resources.ApplyResources(this.label8, "label8");
             this.label8.Name = "label8";
+            // 
+            // btnSmallRight2
+            // 
+            resources.ApplyResources(this.btnSmallRight2, "btnSmallRight2");
+            this.btnSmallRight2.BackColor = System.Drawing.Color.Lavender;
+            this.btnSmallRight2.ContextMenuStrip = this.contextMenuStripFlag;
+            this.btnSmallRight2.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.btnSmallRight2.FlatAppearance.BorderSize = 2;
+            this.btnSmallRight2.Name = "btnSmallRight2";
+            this.btnSmallRight2.UseVisualStyleBackColor = false;
+            this.btnSmallRight2.Click += new System.EventHandler(this.btnSmallRight2_Click);
+            // 
+            // btnSmallLeft2
+            // 
+            resources.ApplyResources(this.btnSmallLeft2, "btnSmallLeft2");
+            this.btnSmallLeft2.BackColor = System.Drawing.Color.Lavender;
+            this.btnSmallLeft2.ContextMenuStrip = this.contextMenuStripFlag;
+            this.btnSmallLeft2.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.btnSmallLeft2.FlatAppearance.BorderSize = 2;
+            this.btnSmallLeft2.Name = "btnSmallLeft2";
+            this.btnSmallLeft2.UseVisualStyleBackColor = false;
+            this.btnSmallLeft2.Click += new System.EventHandler(this.btnSmallLeft2_Click);
+            // 
+            // btnBigRight2
+            // 
+            resources.ApplyResources(this.btnBigRight2, "btnBigRight2");
+            this.btnBigRight2.BackColor = System.Drawing.Color.Lavender;
+            this.btnBigRight2.ContextMenuStrip = this.contextMenuStripFlag;
+            this.btnBigRight2.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.btnBigRight2.FlatAppearance.BorderSize = 2;
+            this.btnBigRight2.Name = "btnBigRight2";
+            this.btnBigRight2.UseVisualStyleBackColor = false;
+            this.btnBigRight2.Click += new System.EventHandler(this.btnBigRight2_Click);
+            // 
+            // btnBigLeft2
+            // 
+            resources.ApplyResources(this.btnBigLeft2, "btnBigLeft2");
+            this.btnBigLeft2.BackColor = System.Drawing.Color.Lavender;
+            this.btnBigLeft2.ContextMenuStrip = this.contextMenuStripFlag;
+            this.btnBigLeft2.FlatAppearance.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.btnBigLeft2.FlatAppearance.BorderSize = 2;
+            this.btnBigLeft2.Name = "btnBigLeft2";
+            this.btnBigLeft2.UseVisualStyleBackColor = false;
+            this.btnBigLeft2.Click += new System.EventHandler(this.btnBigLeft2_Click);
             // 
             // cboxpRowWidth
             // 
@@ -2395,11 +2397,32 @@
             this.btnContour.UseVisualStyleBackColor = false;
             this.btnContour.Click += new System.EventHandler(this.btnContour_Click);
             // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
+            this.panel2.Controls.Add(this.btnBigLeft2);
+            this.panel2.Controls.Add(this.btnBigRight2);
+            this.panel2.Controls.Add(this.label3);
+            this.panel2.Controls.Add(this.btnSmallRight2);
+            this.panel2.Controls.Add(this.btnSmallLeft2);
+            this.panel2.Controls.Add(this.btnContourPriority);
+            this.panel2.Controls.Add(this.btnABLine);
+            this.panel2.Controls.Add(this.btnAutoSteer);
+            resources.ApplyResources(this.panel2, "panel2");
+            this.panel2.Name = "panel2";
+            // 
+            // label3
+            // 
+            resources.ApplyResources(this.label3, "label3");
+            this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label3.Name = "label3";
+            // 
             // FormGPS
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.panelBatman);
             this.Controls.Add(this.btnZoomExtents);
@@ -2409,7 +2432,6 @@
             this.Controls.Add(this.panelSimControls);
             this.Controls.Add(this.cboxpRowWidth);
             this.Controls.Add(this.btnSwapDirection);
-            this.Controls.Add(this.btnContourPriority);
             this.Controls.Add(this.btnCurve);
             this.Controls.Add(this.btnLeftYouTurn);
             this.Controls.Add(this.lblHeading);
@@ -2419,12 +2441,10 @@
             this.Controls.Add(this.btnpTiltDown);
             this.Controls.Add(this.btnpTiltUp);
             this.Controls.Add(this.btnFlag);
-            this.Controls.Add(this.btnAutoSteer);
             this.Controls.Add(this.btnRightYouTurn);
             this.Controls.Add(this.lblFixQuality);
             this.Controls.Add(this.btnContour);
             this.Controls.Add(this.btnManualOffOn);
-            this.Controls.Add(this.btnABLine);
             this.Controls.Add(this.lblSpeedUnits);
             this.Controls.Add(this.lblSpeed);
             this.Controls.Add(this.txtDistanceOffABLine);
@@ -2468,6 +2488,8 @@
             this.panelSimControls.ResumeLayout(false);
             this.contextMenuStripAB.ResumeLayout(false);
             this.contextMenuSnap.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2738,6 +2760,8 @@
         private System.Windows.Forms.ToolStripMenuItem deletePathMenu;
         private System.Windows.Forms.ToolStripMenuItem pausePathMenu;
         public System.Windows.Forms.ToolStripMenuItem goPathMenu;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label label3;
     }
 }
 

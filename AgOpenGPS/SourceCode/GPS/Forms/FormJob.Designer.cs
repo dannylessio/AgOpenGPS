@@ -55,11 +55,12 @@
             // 
             // btnDeleteAB
             // 
-            resources.ApplyResources(this.btnDeleteAB, "btnDeleteAB");
             this.btnDeleteAB.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            resources.ApplyResources(this.btnDeleteAB, "btnDeleteAB");
             this.btnDeleteAB.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnDeleteAB.Image = global::AgOpenGPS.Properties.Resources.back_button;
             this.btnDeleteAB.Name = "btnDeleteAB";
+            this.btnDeleteAB.Click += new System.EventHandler(this.BtnDeleteAB_Click);
             // 
             // btnJobResume
             // 
@@ -90,7 +91,7 @@
             this.Controls.Add(this.btnJobResume);
             this.Controls.Add(this.btnJobNew);
             this.Controls.Add(this.btnJobOpen);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FormJob";

@@ -75,5 +75,10 @@ namespace AgOpenGPS
                 lblResumeDirectory.Text = mf.currentFieldDirectory;
             }
         }
+
+        private void BtnDeleteAB_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -31,37 +31,39 @@ namespace AgOpenGPS
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormSaveOrNot));
-            this.lblQuestion = new System.Windows.Forms.Label();
-            this.btnReturn = new System.Windows.Forms.Button();
-            this.btnOk = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
+            this.btnReturn = new System.Windows.Forms.Button();
+            this.lblQuestion = new System.Windows.Forms.Label();
+            this.btnOk = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // lblQuestion
-            // 
-            resources.ApplyResources(this.lblQuestion, "lblQuestion");
-            this.lblQuestion.Name = "lblQuestion";
-            // 
-            // btnReturn
-            // 
-            resources.ApplyResources(this.btnReturn, "btnReturn");
-            this.btnReturn.Image = global::AgOpenGPS.Properties.Resources.back_button;
-            this.btnReturn.Name = "btnReturn";
-            this.btnReturn.UseVisualStyleBackColor = true;
-            this.btnReturn.Click += new System.EventHandler(this.btnReturn_Click);
-            // 
-            // btnOk
-            // 
-            resources.ApplyResources(this.btnOk, "btnOk");
-            this.btnOk.Image = global::AgOpenGPS.Properties.Resources.FileSave;
-            this.btnOk.Name = "btnOk";
-            this.btnOk.UseVisualStyleBackColor = true;
-            this.btnOk.Click += new System.EventHandler(this.btnOk_Click);
             // 
             // label2
             // 
             resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
+            this.label2.Click += new System.EventHandler(this.Label2_Click);
+            // 
+            // btnReturn
+            // 
+            resources.ApplyResources(this.btnReturn, "btnReturn");
+            this.btnReturn.BackColor = System.Drawing.Color.Silver;
+            this.btnReturn.Name = "btnReturn";
+            this.btnReturn.UseVisualStyleBackColor = false;
+            this.btnReturn.Click += new System.EventHandler(this.btnReturn_Click);
+            // 
+            // lblQuestion
+            // 
+            resources.ApplyResources(this.lblQuestion, "lblQuestion");
+            this.lblQuestion.Name = "lblQuestion";
+            this.lblQuestion.Click += new System.EventHandler(this.LblQuestion_Click);
+            // 
+            // btnOk
+            // 
+            resources.ApplyResources(this.btnOk, "btnOk");
+            this.btnOk.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.btnOk.Name = "btnOk";
+            this.btnOk.UseVisualStyleBackColor = false;
+            this.btnOk.Click += new System.EventHandler(this.btnOk_Click);
             // 
             // FormSaveOrNot
             // 
@@ -72,20 +74,20 @@ namespace AgOpenGPS
             this.Controls.Add(this.btnReturn);
             this.Controls.Add(this.lblQuestion);
             this.Controls.Add(this.btnOk);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormSaveOrNot";
+            this.TopMost = true;
+            this.Load += new System.EventHandler(this.FormSaveOrNot_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
-            this.WindowState = FormWindowState.Normal;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Bounds = Screen.PrimaryScreen.Bounds;
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button btnOk;
-        private System.Windows.Forms.Label lblQuestion;
-        private System.Windows.Forms.Button btnReturn;
-        private System.Windows.Forms.Label label2;
+        private Label label2;
+        private Button btnReturn;
+        private Label lblQuestion;
+        private Button btnOk;
     }
 }

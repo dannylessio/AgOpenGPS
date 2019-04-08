@@ -175,7 +175,7 @@ namespace AgOpenGPS
                 //Batman mini-panel shows
                 panelSimControls.Left = 245;
                 oglMain.Left = 240;
-                oglMain.Width = Width - 240 - 102;
+                oglMain.Width = Width - 240 - 210;
                 btnpTiltDown.Left = 245;
                 btnpTiltUp.Left = 245;
                 btnZoomIn.Left = 245;
@@ -194,7 +194,7 @@ namespace AgOpenGPS
                 //Big tab will be visible
                 panelSimControls.Left = 345;
                 oglMain.Left = 340;
-                oglMain.Width = Width - 340 - 102;
+                oglMain.Width = Width - 340 - 210;
                 btnpTiltDown.Left = 345;
                 btnpTiltUp.Left = 345;
                 btnZoomIn.Left = 345;
@@ -218,13 +218,13 @@ namespace AgOpenGPS
         {
             if (tabControl1.Visible)
             {
-                btnRightYouTurn.Left = (Width - 340 - 100) / 2 + 470;
-                btnLeftYouTurn.Left = (Width - 340 - 100) / 2 + 125;
+                //btnRightYouTurn.Left = (Width - 340 - 100) / 2 + 470;
+                //btnLeftYouTurn.Left = (Width - 340 - 100) / 2 + 125;
             }
             else
             {
-                btnRightYouTurn.Left = (Width-240-100) / 2 + 350;
-                btnLeftYouTurn.Left = (Width-240-100) / 2 + 20;
+                //btnRightYouTurn.Left = (Width-240-100) / 2 + 350;
+                //btnLeftYouTurn.Left = (Width-240-100) / 2 + 20;
             }
 
             int top = 0;

@@ -117,88 +117,87 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;lblQuestion.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;lblQuestion.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tahoma, 15.75pt</value>
-  </data>
-  <data name="&gt;&gt;btnReturn.Name" xml:space="preserve">
-    <value>btnReturn</value>
-  </data>
-  <data name="lblQuestion.Location" type="System.Drawing.Point, System.Drawing">
-    <value>59, 21</value>
-  </data>
-  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="lblQuestion.Text" xml:space="preserve">
-    <value>Go Back</value>
-  <comment>x</comment></data>
-  <data name="&gt;&gt;btnOk.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;lblQuestion.Name" xml:space="preserve">
-    <value>lblQuestion</value>
-  </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>220, 21</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>FormSaveOrNot</value>
-  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="btnOk.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="btnOk.Size" type="System.Drawing.Size, System.Drawing">
-    <value>127, 85</value>
-  </data>
   <data name="label2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
   </data>
-  <data name="lblQuestion.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 15.75pt, style=Bold</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 34</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 25</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Salva e chiudi</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
   </data>
   <data name="&gt;&gt;label2.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="btnOk.Location" type="System.Drawing.Point, System.Drawing">
-    <value>234, 64</value>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="label2.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="&gt;&gt;btnOk.Name" xml:space="preserve">
-    <value>btnOk</value>
+  <data name="btnReturn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>403, 170</value>
-  </data>
-  <data name="lblQuestion.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="btnReturn.Font" type="System.Drawing.Font, System.Drawing">
     <value>Tahoma, 15.75pt</value>
   </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterParent</value>
+  <data name="btnReturn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAANUSURBVGhD1Zk/zw1BFIevf1+B6JQoaKioqeioUKJ/+Qqi9RUI0YivQMS3EKUQtUIU/J7NHTn3
+        vGd2Z+bOve/uL3lyN7szZ87cmT1zZnbVScfFOXFHPBMfxBfxaw3X3OMZZShLnSPVMXFJvBR/G6EuNrC1
+        N/HP3RI/ReRUC9jC5s5H5ar4ISIneoBt2uiuU+KNiBq1/BbvxVNxV9xcwzX3eEaZqK7lraDNLjorvomo
+        IWD4H4kzomQuU4ayj8XYNPwuaHsrXRB/RNQAkeW62OYFpO41ga2oDdo+L5qE85FRuC96Rg5s3RNRW4Av
+        VWLoon+ef4rh35VOi2g08KV4OvHyMP+8kY+i24s1Itr4JHz7+FTUfhRtMHhC7Eu0FXWC6DQqYrCvxJDu
+        45/3os1oOmXXCVbBaJEam/MnxYv1b61K6vJOeH/wMVyxbwtf+IHIiYY/C8rxW9OJmrpRdCLt2BBhzC8q
+        DF8uVFoHEqWdqK2LD34q4euGb5eFLQAsMJEiBxJTnWitiy++PFnsf70S9uGhHhoxb21ZT86RMecT2I4U
+        zRBS8UGELPsAHoqcShzxnWip40Xu5OsMLzO7I/+At39MNQ71cB4RDX09fB9SXXuTdDc3faxKHevhPMIn
+        n4qzPV09NzeAnL1UJZ0Yo9T5JHyz9dljDzmOvflE1Ki1E7XOIzZF1gYHBauv5gYMw1Kp2k60OI/8dGd9
+        GI497M0bokWlnWh1HrE9tbbwffkdWPwU8i/xgahRrfOJlk6EL7EPo+9EqVqdT9R2Igyji1/IFp9KLD6Z
+        Q6+FfbCodBrNfUPDCaAvv7GhiXrI+pAbhciRKeeTauviw+SWEs11U88xpvUJDm3q0RyPVaLIwwldeKyC
+        rghfgak0p4MtfByVj0hAujGHo0WOPSdFz+d4uMtHluL2j+p4HdvRtKk6Xk+6KLyhBNEpF2JbhC1sRm1B
+        9QeOJDoRjQTwcrPYbdMR6k59Ymp2Pomhm/rIR+5EAljSGcpQljp+8bR0+ciXxMsTRScP6S77CTZFpLps
+        T4FrTjtKP7MSbXYSMIjBi/zQbcUqSNoxNvy1YAub2RV2F2Iuk8WWTK0cnIpjY5tA0EWsnOyO2J6yx2bR
+        I0px7AFcc49nlKFsh5V9tfoH/wNehm/8vfoAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btnReturn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnReturn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 74</value>
   </data>
   <data name="btnReturn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>127, 85</value>
+    <value>150, 110</value>
   </data>
-  <data name="&gt;&gt;btnOk.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="btnReturn.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
   </data>
-  <data name="&gt;&gt;lblQuestion.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;btnReturn.Name" xml:space="preserve">
+    <value>btnReturn</value>
   </data>
-  <data name="&gt;&gt;btnOk.Type" xml:space="preserve">
+  <data name="&gt;&gt;btnReturn.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btnReturn.Parent" xml:space="preserve">
@@ -207,61 +206,111 @@
   <data name="&gt;&gt;btnReturn.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="btnReturn.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Save and Close</value>
-  <comment>x</comment></data>
-  <data name="&gt;&gt;btnReturn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnReturn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>32, 64</value>
-  </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>154, 25</value>
-  </data>
-  <data name="btnReturn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="lblQuestion.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
-  </data>
-  <data name="lblQuestion.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 25</value>
   </data>
   <data name="lblQuestion.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="btnReturn.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tahoma, 15.75pt</value>
+  <data name="lblQuestion.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 15.75pt, style=Bold</value>
+  </data>
+  <data name="lblQuestion.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblQuestion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 34</value>
+  </data>
+  <data name="lblQuestion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 25</value>
+  </data>
+  <data name="lblQuestion.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lblQuestion.Text" xml:space="preserve">
+    <value>Torna indietro</value>
+  </data>
+  <data name="&gt;&gt;lblQuestion.Name" xml:space="preserve">
+    <value>lblQuestion</value>
+  </data>
+  <data name="&gt;&gt;lblQuestion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblQuestion.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblQuestion.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnOk.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
   </data>
   <data name="btnOk.Font" type="System.Drawing.Font, System.Drawing">
     <value>Tahoma, 15.75pt</value>
   </data>
-  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="btnOk.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAHsSURBVGhD1ZoxTgNBEAQNMeIRvAFIIYcH8i1ETkDEL2DGsq1z9R59a419S0mddM/u7AjQ7Z3Y
+        7HgJvYd+VtBX6C10H7oKdfMaam28hj5Dd6EuPkKtzdbUU2gxrQ1G0HNoEVxImDvdhubIjPXXoYfQ98Tb
+        a9EQXESYOznm6m9C+QfN3A7BBYS5k+Ov+pOGYDFh7uRw9d1DsJAwd3Isqe8agkWEuZNjaf3iIVhAmDs5
+        eurnhjh6TjAkzJ0cvfVzQxye2AwIcydHb33SGiKvHdu709RMEeZOjt76PTkEH3Z5ATwyUoS5k6O3fspj
+        aLo2b7FHRoowd+q9SvSQ147p2vy1OjJShHm1epH1YoBzXrfzJaoX7qEGOOcLT74J9sI91GiQQ1T+JHKv
+        3PMUuJcagyPnFWNw5LxiDI6cV4zBkfOKMThyXjEGR84rxuDIecUYHDmvGA0u/e00e809pVmrBljz22lr
+        CNaoAdb8dtq67LFGDcD80iKSiwFcXo3rJ7kYwOXVuH6SiwFcXo3rJ7kYwOXVuH6SiwFcXo3rJ7kYwOXV
+        uH6SiwFcXo3rJ7kYwOXVuH6SiwFcXo3rJ7kYwOXVuH6SiwFcXo3rJ7kYwOXVuH6S0/hvGvJfDZZqe90e
+        6Z89enV44an+9nlu7b6tbja/1MmEBUmVadkAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btnOk.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnOk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 74</value>
+  </data>
+  <data name="btnOk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 110</value>
   </data>
   <data name="btnOk.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+    <value>8</value>
   </data>
-  <data name="lblQuestion.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;btnOk.Name" xml:space="preserve">
+    <value>btnOk</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnOk.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnOk.ZOrder" xml:space="preserve">
     <value>3</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>96, 96</value>
-  </data>
-  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tahoma, 8.25pt</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Close Field?</value>
-  <comment>x</comment></data>
-  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>96, 96</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>526, 246</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="$this.RightToLeftLayout" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Close Field?</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormSaveOrNot</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>
