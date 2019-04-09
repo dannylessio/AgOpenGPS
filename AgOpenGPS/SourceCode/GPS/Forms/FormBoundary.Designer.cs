@@ -262,6 +262,7 @@
             this.lvLines.TabIndex = 93;
             this.lvLines.UseCompatibleStateImageBehavior = false;
             this.lvLines.View = System.Windows.Forms.View.Details;
+            this.lvLines.SelectedIndexChanged += new System.EventHandler(this.LvLines_SelectedIndexChanged);
             // 
             // chField
             // 

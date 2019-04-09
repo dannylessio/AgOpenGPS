@@ -254,6 +254,11 @@ namespace AgOpenGPS
             ResetAllBoundary();
         }
 
+        private void LvLines_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void btnLoadMultiBoundaryFromGE_Click(object sender, EventArgs e)
         {
             string fileAndDirectory;

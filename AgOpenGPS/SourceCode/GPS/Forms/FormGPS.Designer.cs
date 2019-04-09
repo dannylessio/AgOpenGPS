@@ -2409,6 +2409,7 @@
             this.panel2.Controls.Add(this.btnSmallLeft2);
             this.panel2.Controls.Add(this.btnContourPriority);
             this.panel2.Controls.Add(this.btnABLine);
+            this.panel2.Controls.Add(this.btnAutoSteer);
             this.panel2.Name = "panel2";
             // 
             // label3
@@ -2430,7 +2431,6 @@
             this.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panelBatman);
-            this.Controls.Add(this.btnAutoSteer);
             this.Controls.Add(this.btnZoomExtents);
             this.Controls.Add(this.btnZoomIn);
             this.Controls.Add(this.btnZoomOut);
